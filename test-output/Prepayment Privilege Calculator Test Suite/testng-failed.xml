@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Prepayment Privilege Calculator Test Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="GmailLogin(failed)">
+    <classes>
+      <class name="testMethods.TestMethod">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test1_invalidPassword"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- testMethods.TestMethod -->
+    </classes>
+  </test> <!-- GmailLogin(failed) -->
+</suite> <!-- Failed suite [Prepayment Privilege Calculator Test Suite] -->
